@@ -22,3 +22,12 @@
 const points=games=>games.reduce((output,current)=>{
     return output += current[0]>current[2] ? 3 : current[0]===current[2] ? 1 : 0;
   },0)
+
+
+  // Is it a palindrome?
+  // Write a function that checks if a given string (case insensitive) is a palindrome.
+
+  function isPalindrome(x) {
+    x=x.toLowerCase()
+    return x===x.split``.reverse().join``
+  }
