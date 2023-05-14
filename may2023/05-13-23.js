@@ -6,6 +6,9 @@
 
 // The input string will only consist of lower case letters and/or spaces.
 
+
+
+
 function getCount(str) {
     let arr = str.split("")
     let vArr = []
